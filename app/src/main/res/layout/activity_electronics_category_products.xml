@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home.Electronics.ElectronicsCategoryProducts">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/computer"
+        android:layout_height="430dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TVcomputer"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="150dp"
+            android:onClick="ComputerOnClick"
+            android:text="COMPUTERS"
+            android:textColor="#FA1F3F"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/hp"
+        android:layout_height="430dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/TVsmartphones"
+            android:layout_width="wrap_content"
+            android:onClick="HPOnClick"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_gravity="center"
+            android:text="SMARTPHONES"
+            android:textColor="#FA1F3F"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

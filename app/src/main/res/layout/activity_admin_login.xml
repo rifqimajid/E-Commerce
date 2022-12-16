@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/admin_login"
+    tools:context=".Admin.AdminLogin">
+
+    <EditText
+        android:id="@+id/ETusername"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#FF9800"
+        android:textStyle="bold"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+       android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/ETpassword"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#FF9800"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/BTNlogin"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:textColor="#FF9800"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:backgroundTint="@color/purple_500"
+        android:text="LOGIN AS ADMIN" />
+
+    <TextView
+        android:id="@+id/TVbtmtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Wish You A Happy Working Day"
+        android:textColor="#FF9800"/>
+
+</LinearLayout>

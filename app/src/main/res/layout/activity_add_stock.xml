@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AddStock"
+    android:orientation="vertical"
+    android:background="@drawable/stock2"
+    tools:ignore="MissingDefaultResource">
+
+    <EditText
+        android:id="@+id/ETitemID"
+        android:layout_marginTop="500dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:textColor="#2196F3"
+        android:hint="  Enter item ID :"
+        android:textSize="17sp"
+        android:textColorHint="#2196F3"
+        android:background="@drawable/kolom_bulat2"/>
+
+    <EditText
+        android:id="@+id/ETqttID"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textColor="#2196F3"
+        android:hint="  Enter quantity to add :"
+        android:textSize="17sp"
+        android:textColorHint="#2196F3"
+        android:inputType="number"
+        android:background="@drawable/kolom_bulat2"/>
+
+    <Button
+        android:id="@+id/BTNaddqtt"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:text="ADD GIVEN QUANTITY TO THE MENTIONED ITEM"
+        android:background="@drawable/kolom_bulat"/>
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About.AboutPage">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:background="@drawable/team"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="Team Member 2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Kampus Merdeka Hacktiv8" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="University" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="1. Anju Mikhael Hutabarat" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="2. Yusuf Oksabri" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="3. Adithya Rachmat" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="4. Muhammad Rifqi Majid" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="110dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="Connect With Us:" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:background="@drawable/insta"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:layout_width="50dp"
+            android:background="@drawable/quora"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:layout_width="50dp"
+            android:background="@drawable/linkedid"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:layout_width="50dp"
+            android:background="@drawable/github"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:layout_width="50dp"
+            android:background="@drawable/fb"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:layout_width="50dp"
+            android:background="@drawable/twitter"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

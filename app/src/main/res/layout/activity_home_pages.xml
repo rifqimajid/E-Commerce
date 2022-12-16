@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".Home.HomePages">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:onClick="ClothingOnClick"
+        android:layout_width="200sp"
+        android:layout_height="300sp"
+        android:src="@drawable/baju"/>
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_marginTop="10dp"
+        android:layout_width="180dp"
+        android:text="CLOTHING AND ACCESSORIES"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/img1"
+        android:layout_marginLeft="5dp"
+        android:layout_height="20dp"
+        android:background="@drawable/kolom_bulat"/>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="200sp"
+        android:layout_height="300sp"
+        android:layout_toRightOf="@id/img1"
+        android:onClick="ElectronicsOnClick"
+        android:src="@drawable/electronics" />
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="180dp"
+        android:layout_marginTop="10dp"
+        android:text="ELECTRONICS"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/img2"
+        android:layout_toRightOf="@id/txt1"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:background="@drawable/kolom_bulat"
+        />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="200sp"
+        android:layout_height="300sp"
+        android:layout_below="@id/img1"
+        android:onClick="BookOnClick"
+        android:src="@drawable/susunanbuku" />
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="180dp"
+        android:text="BOOKS"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/img3"
+        android:layout_height="20dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:background="@drawable/kolom_bulat"/>
+
+    <ImageView
+        android:id="@+id/img4"
+        android:onClick="OthersOnClcik"
+        android:layout_width="200sp"
+        android:layout_height="300sp"
+        android:layout_below="@id/img2"
+        android:layout_toRightOf="@id/img3"
+        android:src="@drawable/others" />
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="180dp"
+        android:text="OTHER ITEMS"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/img4"
+        android:layout_toRightOf="@id/txt3"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/kolom_bulat"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
